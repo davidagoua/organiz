@@ -11,11 +11,11 @@ class ClientDetails extends StatefulWidget{
   User get user => _user;
 
   set user(User value) {
-    _user = value;
+    this._user = value;
   }
 
   ClientDetails():super(){
-    _user = User()
+    this._user = User()
       ..pays = "Gabon"
       ..skills = "Developper web | mobile"
       ..nom = "John Doe"
